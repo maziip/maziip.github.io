@@ -1,9 +1,11 @@
 ---
-# the default layout is 'page'
+title: About
 icon: fas fa-info-circle
 order: 4
+comments: false
+toc: true
 ---
 
-## Seokhee
+# Seokhee
 
 dreadwitch@gmail.com
