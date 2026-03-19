@@ -5,7 +5,7 @@ categories: [Unity, Shader]
 tags: [unity, shader]
 ---
 
-## Standard Surface Shader
+# Standard Surface Shader
 
 ```
 Shader "Custom/Sphere"
@@ -57,13 +57,15 @@ Shader "Custom/Sphere"
 
 ---
 
+## 쉐이더 이름
+
 ``` 
 Shader "Custom/Sphere" 
 ```
 
-쉐이더 이름
-
 ---
+
+## Properties
 
 ```
 Properties
@@ -74,6 +76,7 @@ Properties
     _Metallic ("Metallic", Range(0,1)) = 0.0
 }
 ```
+
 마테리얼 인스펙터에 노출되는 값
 
 * 이름 : _Color
@@ -82,6 +85,8 @@ Properties
 * 기본값 : (1,1,1,1)
 
 ---
+
+## SubShader
 
 ```
 SubShader
@@ -94,11 +99,12 @@ SubShader
 
 ---
 
+## Tags
+
 ```
 Tags { "RenderType"="Opaque" } 
 ```
 
-Tags
 * 유니티에게 이 쉐이더를 어떻게 분류할지 알려주는 메타데이터
 * 렌더링 파이프라인에서 참고하는 설정값
   
