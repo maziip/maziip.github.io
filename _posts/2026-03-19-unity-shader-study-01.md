@@ -7,7 +7,7 @@ tags: [unity, shader]
 
 ## Standard Surface Shader
 
-```shaderlab
+```
 Shader "Custom/Sphere"
 {
     Properties
@@ -57,7 +57,7 @@ Shader "Custom/Sphere"
 
 ---
 
-```shaderlab 
+``` 
 Shader "Custom/Sphere" 
 ```
 
@@ -65,7 +65,7 @@ Shader "Custom/Sphere"
 
 ---
 
-```shaderlab
+```
 Properties
 {
     _Color ("Color", Color) = (1,1,1,1)
@@ -83,7 +83,7 @@ Properties
 
 ---
 
-```shaderlab
+```
 SubShader
 {
     ...
@@ -94,7 +94,7 @@ SubShader
 
 ---
 
-```shaderlab
+```
 Tags { "RenderType"="Opaque" } 
 ```
 
